@@ -134,6 +134,15 @@ img:hover {
     margin-left: 20px;
 }
 
+.publications {
+    text-align: left;
+}
+
+.publications a:hover {
+    font-weight: normal;
+    
+}
+
 
 @media (min-width: 700px) {
     body, .one, footer {
