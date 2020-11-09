@@ -118,26 +118,27 @@ img:hover {
 .gallery {
     display: grid;
     grid-column: 1 / 12;
-    /* padding: 20px; */
     background-color: white;
     grid-column-gap: 18px;
 }
 
 .gal-item {
-    /* background-color: #F6C251; */
     border: 2px solid black;
 }
 
 .footer {
     display: flex;
     justify-items: space-around;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 24px;
+    margin-left: 20px;
 }
 
 
 @media (min-width: 700px) {
     body, .one, footer {
         padding: 24px;
+        background-repeat: repeat-1;
     }
 
     .four {
