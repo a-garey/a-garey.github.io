@@ -34,17 +34,16 @@
         <div class="profile">
             <h3>Amy Garey received her PhD in anthropology from UCLA.  Her research examines morality in post-Soviet societies.</h3>
 
-            <h1>IK</h1>
-
-            <audio id="ABC" src="abc.mp3"></audio><button onclick="playAudio('ABC')" type="button">play</button>
+            <script>
+                var audio = new Audio("https://raw.githubusercontent.com/a-garey/a-garey.github.io/audio/Computer_Magic.mp3")
+                audio.play()
+            </script>
 
         </div>
     </div>
 
 <script>
-        function playAudio(ABC) {
-            var x = document.getElementById('ABC'); x.play();
-        }
+    
 </script>   
 
 </body>
