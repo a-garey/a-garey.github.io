@@ -36,16 +36,16 @@
 
             <h1>IK</h1>
 
-
-            <script>
-                var audio = new Audio("https://raw.githubusercontent.com/a-garey/a-garey.github.io/audio/Computer_Magic.mp3")
-                audio.play()
-            </script>
-            
+            <audio id="ABC" src="abc.mp3"></audio><button onclick="playAudio('ABC')" type="button">play</button>
 
         </div>
     </div>
 
-    
+<script>
+        function playAudio(ABC) {
+            var x = document.getElementById('ABC'); x.play();
+        }
+</script>   
+
 </body>
 </html>
