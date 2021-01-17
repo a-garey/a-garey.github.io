@@ -38,23 +38,10 @@
 
 
             <script>
-                var audio = new Audio();
-                audio.src='https://raw.githubusercontent.com/a-garey/a-garey.github.io/audio/Computer_Magic.mp3';
-                // when the sound has been loaded, execute your code
-                audio.oncanplaythrough = (event) => {
-                    var playedPromise = audio.play();
-                    if (playedPromise) {
-                        playedPromise.catch((e) => {
-                            console.log(e)
-                            if (e.name === 'NotAllowedError' || e.name === 'NotSupportedError') { 
-                                console.log(e.name);
-                            }
-                        }).then(() => {
-                            console.log("playing sound !!!");
-                        });
-                    }
-                }
+                var audio = new Audio("https://raw.githubusercontent.com/a-garey/a-garey.github.io/audio/Computer_Magic.mp3")
+                audio.play()
             </script>
+            
 
         </div>
     </div>
