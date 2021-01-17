@@ -144,7 +144,8 @@ img:hover {
 }
 
 .audio-div {
-    display: inline-block;
+    display: flex;
+    align-items: flex-start;
 }
 
 
