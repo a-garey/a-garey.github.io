@@ -143,6 +143,10 @@ img:hover {
     
 }
 
+.audio-div {
+    display: inline-block;
+}
+
 
 @media (min-width: 700px) {
     body, .one, footer {
