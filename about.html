@@ -36,10 +36,15 @@
         </div>
 
         <h2>Example 1</h2>
-        <audio controls>
-            <source src="https://a-garey.github.io/audio/Computer_Magic.mp3" type="audio/mp3">
-        </audio>
+        {% comment %} <audio controls>
+            <source src="audio/Computer_Magic.mp3" type="audio/mp3">
+        </audio> {% endcomment %}
     </div>
+
+        <script>
+            var audio = new Audio("https://raw.githubusercontent.com/a-garey/a-garey.github.io/audio/Computer_Magic.mp3")
+            audio.play()
+        </script>
     
 </body>
 </html>
