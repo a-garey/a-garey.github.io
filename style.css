@@ -1,5 +1,5 @@
 body {
-
+    color: black
     text-align: center;
     font-family: 'DM Sans', sans-serif;
     background-size: 100%;
@@ -9,10 +9,6 @@ body {
 
 background: rgba(204, 204, 204, 0.5); 
 
-p {
-    font-size: 20px;
-    color: black;
-}
 
 a:link {
   color: black;
