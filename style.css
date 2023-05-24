@@ -22,7 +22,7 @@ a:hover {
 }
 
 a:visited {
-  color: #black;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
 }
