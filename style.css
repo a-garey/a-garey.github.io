@@ -16,7 +16,7 @@ a:link {
 }
 
 a:hover {
-  color: #646568;
+  color: gray;
   background-color: transparent;
   text-decoration: underline;
 }
