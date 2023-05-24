@@ -8,6 +8,9 @@ body {
 
 background: rgba(204, 204, 204, 0.5); 
 
+p {
+    font-size: 20px;
+}
 
 a:link {
   color: black;
