@@ -7,6 +7,10 @@ body {
     font-size: 20px;
 }
 
+p {
+    text-align: center;
+}
+
 background: rgba(204, 204, 204, 0.5); 
 
 
