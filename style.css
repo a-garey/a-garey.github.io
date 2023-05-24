@@ -7,3 +7,22 @@ body {
 }
 
 background: rgba(204, 204, 204, 0.5); 
+
+a:link {
+  color: #7f8389;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7f8389;
+  background-color: transparent;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #7f8389;
+  background-color: transparent;
+  text-decoration: none;
+}
