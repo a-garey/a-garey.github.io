@@ -10,20 +10,19 @@ background: rgba(204, 204, 204, 0.5);
 
 
 a:link {
-  color: #7f8389;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:hover {
-  color: #7f8389;
+  color: #414244;
   background-color: transparent;
-  font-weight: bold;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #7f8389;
+  color: #black;
   background-color: transparent;
   text-decoration: underline;
 }
